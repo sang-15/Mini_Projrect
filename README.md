@@ -15,14 +15,17 @@ For genome assembly <br />
 - **[Prokka](https://github.com/tseemann/prokka)** <br />
 For rapid prokaryotic genome annotation <br />
 
-- **[Bowtie 2](http://bowtie-bio.sourceforge.net/bowtie2/index.shtml)** <br />
-
 - **[TopHat](https://ccb.jhu.edu/software/tophat/manual.shtml)** <br />
 For mapping the reads of the *E.coli* transcriptome project of a K-12 derivative [BW38028](https://www.ncbi.nlm.nih.gov/sra/SRX604287) <br />
+
+  - **[Bowtie2](http://bowtie-bio.sourceforge.net/bowtie2/index.shtml)** <br />
 
 - **[Cufflinks](http://cole-trapnell-lab.github.io/cufflinks/)** <br />
 For quantifying the transcriptomic expression from the *E.coli* transcriptome project of a K-12 derivative [BW38028](https://www.ncbi.nlm.nih.gov/sra/SRX604287) <br />
 
+  - **[SAM tools](http://samtools.sourceforge.net/)** <br />
+ 
+ 
 ## Running wrapper <br />
 Use the following code in the command line <br />
 ```
