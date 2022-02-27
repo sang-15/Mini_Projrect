@@ -4,6 +4,8 @@ This is the repository created for COMP483 mini project: providing a Python wrap
 ## Perequisites
 - **[Python3](https://www.python.org/)** <br />
 
+  - **[Biopython](https://biopython.org/)** <br />
+
 - **[SRA-Toolkit](https://www.ncbi.nlm.nih.gov/sra)** <br />
 For downloading files from NCBI as well as coverting it into the fastq format <br /> 
 
@@ -12,6 +14,8 @@ For genome assembly <br />
 
 - **[Prokka](https://github.com/tseemann/prokka)** <br />
 For rapid prokaryotic genome annotation <br />
+
+- **[Bowtie 2](http://bowtie-bio.sourceforge.net/bowtie2/index.shtml)** <br />
 
 - **[TopHat](https://ccb.jhu.edu/software/tophat/manual.shtml)** <br />
 For mapping the reads of the *E.coli* transcriptome project of a K-12 derivative [BW38028](https://www.ncbi.nlm.nih.gov/sra/SRX604287) <br />
