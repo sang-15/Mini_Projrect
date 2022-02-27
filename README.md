@@ -29,3 +29,6 @@ python3 MyWrapper.py
 The wrapper will generate 2 output files <br />
 1. A 'DataIput' folder including data downloaded and used during process
 2. A 'result' folder including the all output files generated, and a 'miniproject.log' file
+
+## Test data
+A test data is included under repository to test the functionality of the wrapper
