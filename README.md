@@ -10,4 +10,6 @@ For downloading files from NCBI as well as coverting it into the fastq format <b
 - **[SPAdes](https://cab.spbu.ru/software/spades/)** <br />
 For genome assembly <br />
 
+- **[Prokka](https://github.com/tseemann/prokka)** <br />
+For rapid prokaryotic genome annotation <br />
 
