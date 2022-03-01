@@ -5,18 +5,7 @@ import Bio.SeqIO as SeqIO
 import glob
 import csv
 
-##def main():
-##    parser = argparse.ArgumentParser(description = 'Run project')
-##    parser.add_argument('-in', help = 'fasta input file', dest = 'input', type = str, required = True)
-##    parser.add_argument('-out', help ='outfile location' ,dest = 'output', type = str, required = False)
-####    parser.add_argument('--verbose', help = 'Set quiet', dest= 'verbose', action= 'store_true')
-##    args = parser.parse_args()
-####    if args.verbose == True:
-####        print('I am still working on it!')
-##
-##
-##if __name__== '__main__':
-##    main()
+
 
 #Setup
 
