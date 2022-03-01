@@ -1,1 +1,8 @@
-Where to put the test data
+#Since all the SRR used for this project are hard coded within the wrapper, so user does not need to supply any information. 
+#However, if it is the case, the user can substitue the SRR in the wrapper to perform relative analysis to that specific SRR. 
+
+#- SRR8185310:  
+#Used for conducting assembly and annotation, as well as comparisions to RefSeq for E. coli K-12 (NC_000913)
+
+#- SRR1411276:  
+#Used for mapping and quantification, as well as generating the transcriptome_data.fpkm
