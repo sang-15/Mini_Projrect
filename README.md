@@ -35,16 +35,20 @@ python3 EcoliWrapper.py
 ## Output 
 The wrapper will generate a 'Results' folder containing: 
 - miniproject.log 
-  -  Command used for SPAdes
+  - Command used for SPAdes
   - The number of contigs with a length > 1000 
   - The length of the assembly
   - Command used for Prokka
   - Discrepancy between Prokka annotation and RefSeq for E. coli K-12 (NC_000913)
-- transcriptome_data.fpkm 
-  - A csv format file with seqname, start, end, strand and FPKM for each record.
 - long.fasta 
   - A fasta file containing all contigs with length > 1000
+- transcriptome_data.fpkm 
+  - A csv format file with seqname, start, end, strand and FPKM for each record.
+  - Based on SRR1411276 quantification
 - SRR and NC_000913 data
+  - SRR8185310
+  - SRR1411276
+  - NC_000913
 - Spade output
 - Prokka output
 - EcoliK12_index
@@ -54,4 +58,11 @@ The wrapper will generate a 'Results' folder containing:
 
 
 ## Test data
-A test data is included under repository to test the functionality of the wrapper
+Since all the SRR used for this project are hard coded within the wrapper, so user does not need to supply any information. <br />
+However, if it is the case, the user can substitue the SRR in the wrapper to perform relative analysis to that specific SRR. <br />
+
+- SRR8185310:  <br />
+Used for conducting assembly and annotation, as well as comparisions to RefSeq for E. coli K-12 (NC_000913)
+
+- SRR1411276:  <br />
+Used for mapping and quantification, as well as generating the transcriptome_data.fpkm 
