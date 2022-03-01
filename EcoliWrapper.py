@@ -127,7 +127,7 @@ os.system('mv EcoliK12*.bt2l Results/EcoliK12_index/')
 
 #Download data from the E. coli transcriptome project of a K-12 derivative BW38028 
 #SRR1411276: https://www.ncbi.nlm.nih.gov/sra/SRX604287
-os.system('prefetch -v SRR1411276  --output-directory Results/)
+os.system('prefetch -v SRR1411276  --output-directory Results/')
 
 ##Convert the sra file into fastq format
 os.system('fastq-dump Results/SRR1411276/SRR1411276.sra --outdir Results/SRR1411276/')
