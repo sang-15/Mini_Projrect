@@ -33,7 +33,8 @@ python3 EcoliWrapper.py
 ```
 
 ## Output 
-The wrapper will generate a 'Results' folder containing: 
+The wrapper will generate a 'Results' folder under '$HOME/' directory, and the folder contains the following: <br />
+
 - miniproject.log 
   - Command used for SPAdes
   - The number of contigs with a length > 1000 
