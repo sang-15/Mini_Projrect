@@ -1,5 +1,6 @@
 # Overview
-This is the repository created for COMP483 mini project: providing a Python wrapper to investgate if the original *E.coli* K-12 strain from 1922 (Bachmann 1972 (PMID: 4568763)) has been evolved over time.
+This is the repository created for COMP483 mini project: <br />
+Providing a Python wrapper to investigate if the original *E.coli* K-12 strain from 1922 (Bachmann 1972 (PMID: 4568763)) has been evolved over time.
 
 ## Perequisites
 - **[Python3](https://www.python.org/)** <br />
